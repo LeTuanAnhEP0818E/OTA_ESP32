@@ -1,0 +1,21 @@
+{
+    "type": "ch4_generator",
+    "config": {
+      "version": "0.0.15",
+      "url_change?": true,
+      "url": "https://raw.githubusercontent.com/LeTuanAnhEP0818E/OTA_ESP32/Blink.ino.bin",
+      "public_key_change?": false,
+      "public_key_url": "http://10.130.0.154/config_key.pub"
+    },
+    "device": {
+      "ch4_factor": 25.5,
+      "power_factor": 12.25,
+      "checking_interval": 15
+    },
+    "firmware": {
+      "version": "0.0.5",
+      "url": "http://10.130.0.141/m5stack/firmware.img",
+      "public_key_change?": false,
+      "public_key_url": "http://10.130.0.141/m5stack/firmware_key.pub"
+    }
+  }
